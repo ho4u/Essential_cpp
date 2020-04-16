@@ -1,3 +1,6 @@
+// Try to extend the program 1.1: (1) Ask the user to enter both a first and last name 
+// and (2) modify the output to write out both names.
+
 #include <iostream>
 #include <string>
 using namespace std;

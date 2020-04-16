@@ -1,3 +1,5 @@
+// Enter the main() program, shown earlier.
+
 #include <iostream>
 #include <string>
 using namespace std;
