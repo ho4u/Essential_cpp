@@ -46,6 +46,28 @@ int main(int argc, char const *argv[])
     {
         cout << "password is incorrect" << endl;
     }
+
+    cout << "Enter a sentence: ";
+    string line;
+    
+    // ws discards leading whitespace (\n, \t, ' ') from an input stream. 
+    getline(cin >> ws, line); 
+    int vowel_cnt = 0;
+    for (string::size_type i = 0; i != line.size(); ++i)
+    {
+        switch (line[i])
+        {
+            case 'a': case 'A':
+            case 'o': case 'O':
+            case 'u': case 'U':
+            case 'e': case 'E':
+            case 'i': case 'I':
+                ++vowel_cnt;
+                break;
+        }
+    }
+    cout << "The sentence \"" << line << "\" has " 
+         << vowel_cnt << " vowel(s)." << endl;     
     
     return 0;
 }
