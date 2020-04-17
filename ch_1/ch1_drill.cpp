@@ -21,9 +21,19 @@ int main(int argc, char const *argv[])
     cout << "enter your name: ";
     cin >> user_name;
     cout << "\n\t" << user_name;
+
     char usr_rsp;
     cout << "\nSay yes or no(y or n): ";
     cin >> usr_rsp;
+    if (usr_rsp == 'y' || usr_rsp == 'Y')
+    {
+        cout << "You said yes." << endl;
+    }
+    else if (usr_rsp == 'N' || usr_rsp == 'n')
+    {
+        cout << "You said no." << endl;
+    }
+
     string pwd;
     cout << "enter password: ";
     cin >> pwd;
@@ -36,5 +46,6 @@ int main(int argc, char const *argv[])
     {
         cout << "password is incorrect" << endl;
     }
+    
     return 0;
 }
