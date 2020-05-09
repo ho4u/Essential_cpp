@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "iomanip": "cpp",
+        "ostream": "cpp",
+        "*.tcc": "cpp",
+        "cstddef": "cpp",
+        "istream": "cpp"
+    }
+}
