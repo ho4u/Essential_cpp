@@ -10,7 +10,7 @@
 
 using namespace std;
 
-/*int main()
+void prog1()
 {
     const size_t name_sz = 20;
     char usr_name[name_sz];
@@ -20,10 +20,9 @@ using namespace std;
         cout << "Your name is " << usr_name << endl;
     else
         cout << "Your name is too short" << endl;
-    return 0; 
-}*/
+}
 
-int main()
+void prog2()
 {
     string usr_name;
     cout << "Enter user name: ";
@@ -32,5 +31,12 @@ int main()
         cout << "Your name is " << usr_name << endl;
     else
         cout << "Your name is too short" << endl;
-    return 0; 
+}
+
+int main()
+{
+    prog1();
+    //prog2();
+
+    return 0;
 }

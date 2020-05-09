@@ -1,0 +1,4 @@
+When we open a file in append mode, the current position of the file is at the end. If we try to read the file
+without repositioning it, we simply encounter the end-of-file. The seekg() operation repositions iofile
+to the beginning of the file. Because it is opened in append mode, any write operation adds the data to the
+end of the file.
